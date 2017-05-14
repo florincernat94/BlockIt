@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.florincernat.blockit.MainActivity">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block SMS"
+        android:id="@+id/sms_switch"
+        android:checked="true"
+        android:onClick="setSmsReceiver"
+        android:layout_marginBottom="66dp"
+        android:layout_above="@+id/unknown_sms_switch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Calls"
+        android:id="@+id/calls_switch"
+        android:checked="true"
+        android:onClick="setCallReceiver"
+        android:layout_above="@+id/sms_switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Unknown Calls"
+        android:id="@+id/unknown_calls_switch"
+        android:checked="true"
+        android:onClick="setUnknownCallReceiver"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/calls_switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Anonymous Calls"
+        android:id="@+id/anonymous_calls_switch"
+        android:checked="true"
+        android:onClick="setAnonymousCallReceiver"
+        android:layout_below="@+id/unknown_sms_switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Unknown SMS"
+        android:id="@+id/unknown_sms_switch"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="setUnknownSmsReceiver" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Anonymous SMS"
+        android:id="@+id/anonymous_sms_switch"
+        android:checked="false"
+        android:layout_below="@+id/anonymous_calls_switch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="setAnonymousSmsReceiver" />
+
+</RelativeLayout>

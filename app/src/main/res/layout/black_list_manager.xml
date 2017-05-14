@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:onClick="viewLogs"
+    android:longClickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Add a number to block"
+        android:id="@+id/block_number_id"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/add_number_to_block"
+        android:layout_below="@+id/block_number_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block It"
+        android:id="@+id/add_number_to_block_button"
+        android:layout_alignBottom="@+id/add_number_to_block"
+        android:layout_toRightOf="@+id/block_number_id"
+        android:layout_toEndOf="@+id/block_number_id"
+        android:onClick="addBlockedNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Remove a number from black list"
+        android:id="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/add_number_to_block" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/remove_blocked_number"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:id="@+id/remove_blocked_number_button"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/add_number_to_block_button"
+        android:layout_alignStart="@+id/add_number_to_block_button"
+        android:onClick="removeBlockedNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="View Black List"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/remove_blocked_number_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/blocked_numbers_listView_button"
+        android:onClick="printBlockedNumbers"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/view_forbidden_messages"
+        android:layout_alignStart="@+id/view_forbidden_messages" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Add forbidden words in sms"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/blocked_numbers_listView_button"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forbidden_message"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/blocked_numbers_listView_button"
+        android:layout_alignEnd="@+id/blocked_numbers_listView_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/forbidden_words_button"
+        android:layout_alignBottom="@+id/forbidden_message"
+        android:layout_alignLeft="@+id/remove_blocked_number_button"
+        android:layout_alignStart="@+id/remove_blocked_number_button"
+        android:onClick="addForbiddenMessage"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="View Forbidden Messages"
+        android:id="@+id/textView"
+        android:layout_below="@+id/forbidden_message"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/view_forbidden_messages"
+        android:onClick="printForbiddenMessages"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="View Logs"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/view_forbidden_messages"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/view_logs_button"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:onClick="printLogs"
+        android:nestedScrollingEnabled="false" />
+
+</RelativeLayout>

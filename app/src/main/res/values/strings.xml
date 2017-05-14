@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlockIt</string>
+    <string name="exit">Exit</string>
+    <string name="add_words_to_block">Add Words To Block</string>
+    <string name="logs">Logs</string>
+    <string name="manage_calls">Manage Calls</string>
+    <string name="manage_sms">Manage SMS</string>
+    <string name="main_page">Main Page</string>
+</resources>

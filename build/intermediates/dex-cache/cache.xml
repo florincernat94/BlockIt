@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_9b9d5425ca67e5961d4dbd00fc95eb3907e6a2ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_0bc89dbd94afa6caea81812926208c1eb2041cc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_15d8d3581d3f3af5e1bbce922573d4fff3c007b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_61b10a020920aca5637d41dcdbb616cd2a91e93b.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_9a1d47b65da18b0bc46d741cefec2277994d792f.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_4541a84479f53974d4ad27ca38a4c2f9c26067a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5b83fad3ad188f8142dc4dee186eb0f12217f09e.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="06343f6061950af24d0e96287c6499d4180f2fce">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\instant-run_6fbc76ceb96a9ccfcc90aa1fbbd581739055ff17.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_f6e1894f491971c219498e22d6ca8adf281b7279.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c1c14a26db749dd7a2c41ecfbd18e8025a02de64.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_a03b6e29d1f7ee1d1cb3e72585b5502b7447cfbc.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_15e4b4716921bead4bed1ff875d6174082b7ad5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_414ba84be2eab68529a4416bc63834b9719fda98.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_6e4ae8a1a4b78d851fa8e8af4212c594f8eec557.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_29da913798700f47a9c90adde04bbfa2a84f4136.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="70420136735b87a8d04789c2439d1e3e621e3b2d">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_f495a29bb6823ccc04d0e615c5c1c556cd167fe8.jar" />
+    </item>
+    <item
+        jar="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\florin\AndroidStudioProjects\BlockIt\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0845a8a6b8ab4639add1f82706ba301608386a57.jar" />
+    </item>
+
+</items>
